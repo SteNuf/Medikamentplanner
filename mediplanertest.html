@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medikamentenplaner</title>
+</head>
+<body>
+    <section>
+    <div>
+        <h1>Medikamentenplaner</h1>
+    </div>
+    <div>
+        <label for="medikamentnename"> Medikamentnename: 
+            <input type="text">
+        </label>
+    </div>
+    <br>
+    <br>
+
+    <div>
+        <h1>===== Gewünschte Einnahme ======</h1>
+        <label for="morgens"></label> Morgens:
+        <input type="checkbox" name="morgen" value="Einnahme_am_morgen" id="morgens">
+
+        <label for="Einnahme"></label> Einnahme:
+        <input type="number" id="Einnahme">
+        <br>
+        <br>
+        <label for="mittags"></label> Mittags:
+        <input type="checkbox" name="mittag" value="Einnahme_am_mittag" id="mittags">
+
+        <label for="Einnahme"></label> Einnahme:
+        <input type="number">
+        <br>
+        <br>
+        <label for="abends"></label> Abends:
+        <input type="checkbox" name="abend" value="Einnahme_am_abend" id="abends">
+
+        <label for="Einnahme"></label> Einnahme:
+        <input type="number">
+        <br>
+        <br>
+        <label for="nachts"></label> Nachts:
+        <input type="checkbox" name="nacht" value="Einnahme_am_nachts" id="nachts">
+
+        <label for="Einnahme"></label> Einnahme:
+        <input type="number">
+    </div>
+    <br>
+    <br>
+    <div>
+        <button type="button" id="Medikament_hinzufuegen">Medikament hinzufügen</button>
+    </div>
+    
+    </section>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
