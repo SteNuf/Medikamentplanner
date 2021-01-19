@@ -8,51 +8,62 @@
 <body>
     <section>
     <div>
-        <h1>Medikamentenplaner</h1>
+
+      <form action="mediplanertest.html" method="post">
+
+        <legend>Medikamentenplanner:</legend>
+        <br>
+        <fieldset>
+          <div>
+              <label for="medikamentenname"> Medikamentenname:</label>
+                  <input id="medikamentenname" type="text" placeholder="Medikamentenname eingeben:" title="Bitte Medikamentenname eingeben!">
+                    <br><br>
+              <label for="wirkstoffname">Wirkstoffname:</label>
+                  <input id="wirkstoffname" type="text" name="wirkstoffname" placeholder="Name Wirkstoffes eingeben!" title="Bitte geben Sie den Wirkstoffname ein!">
+        </fieldset>
+      </form>
     </div>
+    </div>
+    <br><br>
+
     <div>
-        <label for="medikamentnename"> Medikamentnename: 
-            <input type="text">
-        </label>
-    </div>
-    <br>
-    <br>
+        <form class="" action="index.html" method="post">
 
-    <div>
-        <h1>===== Gewünschte Einnahme ======</h1>
-        <label for="morgens"></label> Morgens:
-        <input type="checkbox" name="morgen" value="Einnahme_am_morgen" id="morgens">
+          <legend>===== Gewünschte Einnahme ====== </legend>
+          <br><br>
+            <label for="morgens">Morgens: </label>
+              <input id="morgens" type="checkbox" name="morgen">
 
-        <label for="Einnahme"></label> Einnahme:
-        <input type="number" id="Einnahme">
-        <br>
-        <br>
-        <label for="mittags"></label> Mittags:
-        <input type="checkbox" name="mittag" value="Einnahme_am_mittag" id="mittags">
+            <label for="EinnahmeMorgens">Einnahme:</label>
+              <input id="EinnahmeMorgens"  type="number">
+                <br>
+                <br>
+            <label for="mittags">Mittags:</label>
+              <input id="mittags" type="checkbox" name="mittag">
 
-        <label for="Einnahme"></label> Einnahme:
-        <input type="number">
-        <br>
-        <br>
-        <label for="abends"></label> Abends:
-        <input type="checkbox" name="abend" value="Einnahme_am_abend" id="abends">
+            <label for="EinnahmeMittags">Einnahme: </label>
+              <input id="EinnahmeMittags" type="number">
+                <br>
+                <br>
+            <label for="abends">Abends:</label>
+              <input id="abends" type="checkbox" name="abend">
 
-        <label for="Einnahme"></label> Einnahme:
-        <input type="number">
-        <br>
-        <br>
-        <label for="nachts"></label> Nachts:
-        <input type="checkbox" name="nacht" value="Einnahme_am_nachts" id="nachts">
+            <label for="einnahmeAbends">Einnahme: </label>
+              <input id="einnahmeAbends" type="number">
+                <br>
+                <br>
+            <label for="nachts">Nachts: </label>
+              <input type="checkbox" name="nacht" id="nachts">
 
-        <label for="Einnahme"></label> Einnahme:
-        <input type="number">
+            <label for="einnahmeNachts"></label> Einnahme:
+              <input id="einnahmeNachts" type="number">
+        </form>
     </div>
     <br>
     <br>
     <div>
-        <button type="button" id="Medikament_hinzufuegen">Medikament hinzufügen</button>
+        <button type="submit" id="Medikament_hinzufuegen">Medikament hinzufügen</button>
     </div>
-    
     </section>
 
     <script src="main.js" defer></script>
