@@ -9,7 +9,7 @@
     <section>
     <div>
 
-      <form action="mediplanertest.html" method="post">
+      <form id="eingabe"action="mediplanertest.html" method="post">
 
         <legend>Medikamentenplanner:</legend>
         <br>
@@ -19,7 +19,7 @@
                   <input id="medikamentenname" type="text" placeholder="Medikamentenname eingeben:" title="Bitte Medikamentenname eingeben!">
                     <br><br>
               <label for="wirkstoffname">Wirkstoffname:</label>
-                  <input id="wirkstoffname" type="text" name="wirkstoffname" placeholder="Name Wirkstoffes eingeben!" title="Bitte geben Sie den Wirkstoffname ein!">
+                  <input id="wirkstoffname" type="text" name="wirkstoffname" placeholder="Wirkstoffename eingeben!" title="Bitte geben Sie den Wirkstoffname ein!">
         </fieldset>
       </form>
     </div>
@@ -27,36 +27,36 @@
     <br><br>
 
     <div>
-        <form class="" action="index.html" method="post">
+        <form class="formular" id="form" action="index.html" method="post">
 
           <legend>===== Gewünschte Einnahme ====== </legend>
           <br><br>
             <label for="morgens">Morgens: </label>
               <input id="morgens" type="checkbox" name="morgen">
 
-            <label for="EinnahmeMorgens">Einnahme:</label>
-              <input id="EinnahmeMorgens"  type="number">
+            <label for="einnahmeMorgens">Einnahme:</label>
+              <input id="einnahmeMorgens"  type="text" placeholder="Wie viele Tabletten am Morgen?">
                 <br>
                 <br>
             <label for="mittags">Mittags:</label>
               <input id="mittags" type="checkbox" name="mittag">
 
             <label for="EinnahmeMittags">Einnahme: </label>
-              <input id="EinnahmeMittags" type="number">
+              <input id="EinnahmeMittags" type="text">
                 <br>
                 <br>
             <label for="abends">Abends:</label>
               <input id="abends" type="checkbox" name="abend">
 
             <label for="einnahmeAbends">Einnahme: </label>
-              <input id="einnahmeAbends" type="number">
+              <input id="einnahmeAbends" type="text">
                 <br>
                 <br>
             <label for="nachts">Nachts: </label>
               <input type="checkbox" name="nacht" id="nachts">
 
             <label for="einnahmeNachts"></label> Einnahme:
-              <input id="einnahmeNachts" type="number">
+              <input id="einnahmeNachts" type="text">
         </form>
     </div>
     <br>
