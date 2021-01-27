@@ -38,7 +38,9 @@ input_einnahmeMorgens.addEventListener("change", e => {
 })
 
 
-
+// TODO: einnahme textfeld ansprechen
+// TODO: reset button erstellen
+// TODO: validierung einbauen für die Textfelder
 
 // data.addEventListener("click", () => {
   // console.log(data);
